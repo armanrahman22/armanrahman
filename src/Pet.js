@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 
 const Pet = ({ name, animal, breed, images, location, id }) => {
-	let hero = "http://pets-images.dev-apis.com/pets/none.jpg"
+	let hero = "https://freesvg.org/img/dog_avatar.png"
 	if (images.length) {
 		hero = images[0]
 	}
